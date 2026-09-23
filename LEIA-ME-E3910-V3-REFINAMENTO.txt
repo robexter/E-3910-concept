@@ -1,0 +1,27 @@
+E-3910 CONCEPT — V3 REFINAMENTO CIC
+
+Base técnica preservada:
+PE.REF.OPE.CCF.060
+PE.REF.OPE.CCF.055-L
+
+Melhorias V3:
+- 21 etapas preservadas;
+- agrupamento em 7 macrofases;
+- Matriz de Estado da E-3910;
+- decisão + confirmação + impedimento;
+- tendências qualitativas sem inventar valores;
+- destaque da transição PIC-39265A/F-3910 → PIC-39265B/flare;
+- distinção clara da instrumentação na etapa 12 versus etapa 14;
+- purga flare → atmosfera;
+- gate corte/solda;
+- cronômetro 24 h dependente de 2 confirmações;
+- avaliação CIC às cegas, sem número de etapa;
+- LOTO usado na interface; fonte registra LIBRA na etapa correspondente.
+
+GitHub E-3910 Concept:
+1. substituir retirada-e3910-manutencao.html
+2. substituir sw.js
+3. atualizar o cartão no index usando ATALHO-INDEX-E3910.html
+
+Abrir:
+https://robexter.github.io/E-3910-concept/?v=3
