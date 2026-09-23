@@ -1,0 +1,31 @@
+E-3910 CONCEPT — V3.1
+CORREÇÃO DO ATALHO VISUAL NA TELA PRINCIPAL
+
+Problema:
+O arquivo ATALHO-INDEX-E3910.html estava no repositório, mas não tinha sido incorporado ao index.html.
+Por isso o botão "Treinar manobra" não aparecia na tela.
+
+Solução V3.1:
+O sw.js injeta automaticamente o cartão de treinamento imediatamente antes de:
+<section class="panel" id="panel">
+
+O cartão exibido será:
+MANOBRAS OPERACIONAIS
+Retirada de Operação da E-3910 para Manutenção
+[ Treinar manobra ]
+
+No GitHub:
+1. Substituir somente sw.js pelo arquivo deste pacote.
+2. Confirmar que retirada-e3910-manutencao.html continua na raiz.
+3. Fazer Commit changes.
+4. Abrir:
+   https://robexter.github.io/E-3910-concept/?v=31
+5. Recarregar a página.
+6. Se a versão antiga ainda estiver em cache, fechar a página/app e abrir novamente.
+
+O index.html principal NÃO precisa ser substituído e a imagem base64 não é alterada.
+
+Alternativa manual:
+Se preferir não usar a injeção pelo service worker, o arquivo ATALHO-INDEX-E3910.html
+continua disponível para colar antes de:
+<section class="panel" id="panel">
