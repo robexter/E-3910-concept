@@ -1,4 +1,4 @@
-const CACHE_NAME = 'e3910-concept-v3-1-atalho-visual';
+const CACHE_NAME = 'e3910-concept-v3-1-atalho-visual-concept-v5-52-mobile-20261015';
 
 const APP_SHELL = [
   './',
