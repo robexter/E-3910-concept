@@ -23,9 +23,9 @@ const SHORTCUT_HTML = `
 
   <section class="card" style="padding:16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;border-color:#6d5630;background:linear-gradient(180deg,#241f14,#0d171f)">
     <div>
-      <div style="font-size:11px;font-weight:900;letter-spacing:.08em;color:#ffd28a;margin-bottom:5px">🛠️ V3 • REFINAMENTO CIC • E-3910</div>
+      <div style="font-size:11px;font-weight:900;letter-spacing:.08em;color:#ffd28a;margin-bottom:5px">🛠️ CIC • E-3910</div>
       <b style="font-size:18px">Retirada de Operação da E-3910 para Manutenção</b>
-      <p style="margin:6px 0 0;color:#9fb2c5;line-height:1.45">7 macrofases • decisão + confirmação • tendências • 21 etapas preservadas • avaliação CIC às cegas.</p>
+      <p style="margin:6px 0 0;color:#9fb2c5;line-height:1.45"></p>
     </div>
     <a class="ui primary" href="./retirada-e3910-manutencao.html?v=3" style="text-decoration:none;white-space:nowrap">🛠️ Treinar manobra</a>
   </section>
